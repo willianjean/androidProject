@@ -1,11 +1,7 @@
 INDEX VERSION 1.126+C:\MyProject\trunk\.metadata\.plugins\org.eclipse.jdt.core
-1027600823.index
-<<<<<<< .mine
 665951957.index
-1611078344.index
-1666027993.index
-=======
-8124578.index
->>>>>>> .r12
-3515282563.index
 1369530581.index
+1027600823.index
+3515282563.index
+1611078344.index
+8124578.index
