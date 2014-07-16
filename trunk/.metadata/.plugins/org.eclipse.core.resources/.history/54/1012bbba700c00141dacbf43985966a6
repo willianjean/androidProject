@@ -1,0 +1,74 @@
+package br.edu.ufam;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.Toast;
+
+public class MainActivity extends Activity {
+	boolean itemNegrito,itemSublinhado;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		
+	
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.menu_teste, menu);
+		return true;
+		
+		
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		switch (item.getItemId()) {
+		case R.id.itemCadastro:
+			Toast.makeText(this, "Selecionou Cadastro", Toast.LENGTH_SHORT).show();
+			return true;
+		case R.id.item2:
+			Toast.makeText(this, "Selecionou Graficos", Toast.LENGTH_SHORT).show();
+			return true;
+		case R.id.itemnegrito:
+			item.setChecked(!item.isChecked());
+			itemNegrito=item.isChecked();
+			verificaCheck();
+			return true;
+		case R.id.itemsublinhado:
+			item.setChecked(!item.isChecked());
+			itemSublinhado=item.isChecked();
+			verificaCheck();
+			return true;	
+		case R.id.itemarial:
+		case R.id.itemcourier:
+			verificaRadio(item);
+			return true;		
+		default:
+			return super.onOptionsItemSelected(item);	
+		}
+		
+	}
+	
+		
+	public void verificaRadio(MenuItem mnu){
+		mnu.setChecked(true);
+	   Toast.makeText(this,"Voce selecionou a opção "+mnu.getTitle(), 1000).show();
+	}
+	
+	public void verificaCheck(){
+		String msg="";
+		if (itemNegrito)
+			msg+="Item Negrito está marcado ";
+		if (itemSublinhado)
+			msg+="Item Sublinhado está marcado ";
+		Toast.makeText(this, msg, Toast.LENGTH_SHORT).show();
+	}
+
+}

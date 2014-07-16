@@ -7,10 +7,10 @@
 <fullyQualifiedTypeName name="android.view.View.OnKeyListener"/>
 <fullyQualifiedTypeName name="android.view.KeyEvent"/>
 <fullyQualifiedTypeName name="android.R"/>
-<fullyQualifiedTypeName name="android.R.layout"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="aula.android.aula05.R.id"/>
 <fullyQualifiedTypeName name="android.widget.AdapterView.OnItemSelectedListener"/>
 <fullyQualifiedTypeName name="android.widget.ImageView"/>
 <fullyQualifiedTypeName name="aula.android.aula05.R.drawable"/>
+<fullyQualifiedTypeName name="android.R.layout"/>
 </qualifiedTypeNameHistroy>
