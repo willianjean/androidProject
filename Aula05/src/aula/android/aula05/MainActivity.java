@@ -61,9 +61,9 @@ public class MainActivity extends Activity {
 		}
 	);
 		
-		//Spinner
+		//Spinner       outro layout para o spinner --> simple_spinner_item
 		Spinner spReg=(Spinner)findViewById(R.id.spRegiao);
-		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item, bairros);
+		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_spinner_dropdown_item, bairros);
 		spReg.setAdapter(adapter);
 		
 		//ImageView
