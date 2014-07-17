@@ -1091,6 +1091,8 @@ containing a value of this type.
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
         public static final int btnCadastro=0x7f050040;
+        public static final int cad_clientes=0x7f050046;
+        public static final int cad_fornecedores=0x7f050045;
         public static final int checkbox=0x7f05002d;
         public static final int collapseActionView=0x7f05000d;
         public static final int default_activity_button=0x7f050028;
@@ -1102,6 +1104,8 @@ containing a value of this type.
         public static final int end=0x7f050013;
         public static final int expand_activities_button=0x7f050026;
         public static final int expanded_menu=0x7f05002c;
+        public static final int grp_estilo=0x7f050048;
+        public static final int grp_fonte=0x7f05004b;
         public static final int historico=0x7f050043;
         public static final int home=0x7f050014;
         public static final int homeAsUp=0x7f050005;
@@ -1109,6 +1113,12 @@ containing a value of this type.
         public static final int ifRoom=0x7f05000a;
         public static final int image=0x7f050027;
         public static final int imgBairro=0x7f050041;
+        public static final int item2=0x7f050047;
+        public static final int itemCadastro=0x7f050044;
+        public static final int itemarial=0x7f05004c;
+        public static final int itemcourier=0x7f05004d;
+        public static final int itemnegrito=0x7f050049;
+        public static final int itemsublinhado=0x7f05004a;
         public static final int listMode=0x7f050001;
         public static final int list_item=0x7f050029;
         public static final int llPrincipal=0x7f05003c;
@@ -1200,6 +1210,7 @@ containing a value of this type.
     }
     public static final class menu {
         public static final int context_menu=0x7f0c0000;
+        public static final int menu=0x7f0c0001;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 

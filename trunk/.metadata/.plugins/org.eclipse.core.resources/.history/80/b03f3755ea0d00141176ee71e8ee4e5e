@@ -62,9 +62,9 @@ public class MainActivity extends Activity {
 		}
 	);
 		
-		//Spinner       outro layout para o spinner --> simple_spinner_item
+		//Spinner
 		Spinner spReg=(Spinner)findViewById(R.id.spRegiao);
-		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_spinner_dropdown_item, bairros);
+		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item, bairros);
 		spReg.setAdapter(adapter);
 		
 		//ImageView
@@ -181,33 +181,10 @@ public class MainActivity extends Activity {
 	}
 	
 	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
-		// TODO Auto-generated method stub
-		switch(item.getItemId()){
-		case R.id.itemCadastro:
-			usarToast("Selecionou Cadastro");
-			return true;
-		case R.id.item2:
-			usarToast("Selecionou Graficos");
-			return true;
-		case R.id.itemnegrito:
-			item.setChecked(!item.isChecked());
-			return true;
-		case R.id.itemarial://verificar esse case se nao esta faltando alguma coisa -------------------------------------------------
-			return true;
-		case R.id.itemcourier:
-			//verificaRadio(item);
-			return true;
-		default:
-		return super.onOptionsItemSelected(item);
-		}
-	}
-	
-	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// TODO Auto-generated method stub
 		MenuInflater inflater = getMenuInflater();
-		inflater.inflate(R.menu.menu, menu);
+		inflater.inflate(R.menu.menu, menu)
 		return true;
 	}
 	
