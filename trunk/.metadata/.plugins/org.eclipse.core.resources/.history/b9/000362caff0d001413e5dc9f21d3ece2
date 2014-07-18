@@ -1,0 +1,25 @@
+package aula.android.aula06;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
+
+public class MainActivity extends Activity {
+	
+	String nomes[]={"Anisio", "Angelo", "Andrea",
+			"Andre", "Antonio", "Anglo", "Anderson"};
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		ArrayAdapter<String> adapter=
+				new ArrayAdapter<String>(this,
+				android.R.layout.simple_dropdown_item_1line,nomes);
+		AutoCompleteTextView autoTextView =
+				(AutoCompleteTextView)findViewById(R.id.autoComplete);
+		autoTextView.setThreshold(3);
+		autoTextView.setAdapter(adapter);
+	}
+}

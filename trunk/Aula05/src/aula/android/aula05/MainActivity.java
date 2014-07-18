@@ -193,14 +193,18 @@ public class MainActivity extends Activity {
 		case R.id.itemnegrito:
 			item.setChecked(!item.isChecked());
 			return true;
-		case R.id.itemarial://verificar esse case se nao esta faltando alguma coisa -------------------------------------------------
-			return true;
+		case R.id.itemarial:
 		case R.id.itemcourier:
-			//verificaRadio(item);
+			verificaRadio(item);
 			return true;
 		default:
 		return super.onOptionsItemSelected(item);
 		}
+	}
+	
+	public void verificaRadio(MenuItem mnu){
+		mnu.setChecked(true);
+	   Toast.makeText(this,"Voce selecionou a opção "+mnu.getTitle(), 1000).show();
 	}
 	
 	@Override
