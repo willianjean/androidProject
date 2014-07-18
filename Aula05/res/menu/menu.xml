@@ -44,8 +44,7 @@
         <item 
             android:id="@+id/itemarial"
             android:checkable="true"
-            android:title="Arial">
-        </item>
+            android:title="Arial"/>
         <item
             android:id="@+id/itemcourier"
             android:title="Courier"/>
