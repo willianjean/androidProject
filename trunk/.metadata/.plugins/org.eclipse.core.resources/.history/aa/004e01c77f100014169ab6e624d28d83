@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/itemCadastro"
+        android:title="Cadastro..."
+        android:icon="@android:drawable/ic_input_add"
+        android:titleCondensed="Cadastro...">
+        <menu>
+            <item
+                android:id="@+id/cad_fornecedores"
+                android:title="Fornecedores"/>
+            <item 
+                android:id="@+id/cad_clientes"
+                android:title="Clientes"/>
+        </menu>
+    </item>
+    
+    <item
+        android:id="@+id/item2"
+        android:icon="@android:drawable/ic_dialog_alert"
+        android:title="Opção de Graficos"
+        android:showAsAction="ifRoom"
+        android:titleCondensed="Graficos">        
+    </item>
+    
+    <group
+        android:id="@+id/grp_estilo"
+        android:checkableBehavior="all">
+        <item
+            android:id="@+id/itemnegrito"
+            android:title="Negrito">
+        </item>
+        <item
+            android:id="@+id/itemsublinhado"
+            android:checked="true"
+            android:title="Sublinhado">
+        </item>
+    </group>
+    
+    <group
+        android:id="@+id/grp_fonte"
+        android:checkableBehavior="single">
+        <item 
+            android:id="@+id/itemarial"
+            android:checkable="true"
+            android:title="Arial"/>
+        <item
+            android:id="@+id/itemcourier"
+            android:title="Courier"/>
+    </group>
+
+</menu>
