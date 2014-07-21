@@ -43,11 +43,13 @@
         android:checkableBehavior="single">
         <item 
             android:id="@+id/itemarial"
-            android:checkable="true"
-            android:title="Arial"/>
+            android:checked="true"
+            android:title="Arial">
+        </item>
         <item
             android:id="@+id/itemcourier"
-            android:title="Courier"/>
+            android:title="Courier">
+        </item>
     </group>
 
 </menu>
