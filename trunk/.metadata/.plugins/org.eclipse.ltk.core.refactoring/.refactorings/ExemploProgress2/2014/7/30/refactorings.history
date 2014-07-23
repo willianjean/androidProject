@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 4 elements from project &apos;ExemploProgress2&apos;&#x0D;&#x0A;- Original project: &apos;ExemploProgress2&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     ExemploProgress2.apk&#x0D;&#x0A;     ExemploProgressBar.apk&#x0D;&#x0A;     ExemploProgressBar2.apk&#x0D;&#x0A;     ExemploProgressEnvio2.apk" description="Delete elements" element1="bin/ExemploProgress2.apk" element2="bin/ExemploProgressBar.apk" element3="bin/ExemploProgressBar2.apk" element4="bin/ExemploProgressEnvio2.apk" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="4" stamp="1406065462763" subPackages="false" version="1.0"/>
+</session>
