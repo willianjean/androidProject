@@ -19,9 +19,12 @@
 <fullyQualifiedTypeName name="android.widget.ProgressBar"/>
 <fullyQualifiedTypeName name="java.lang.Runnable"/>
 <fullyQualifiedTypeName name="android.widget.Button"/>
-<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
 <fullyQualifiedTypeName name="android.widget.EditText"/>
-<fullyQualifiedTypeName name="aula.android.exercicio3.R.id"/>
 <fullyQualifiedTypeName name="android.app.AlertDialog"/>
 <fullyQualifiedTypeName name="android.app.AlertDialog.Builder"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="aula.android.exercicio3.R.id"/>
+<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
+<fullyQualifiedTypeName name="android.app.DatePickerDialog"/>
+<fullyQualifiedTypeName name="android.app.DatePickerDialog.OnDateSetListener"/>
 </qualifiedTypeNameHistroy>

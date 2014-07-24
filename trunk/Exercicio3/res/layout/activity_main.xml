@@ -28,10 +28,11 @@
         android:layout_height="wrap_content"
         android:text="Informe sua data de nascimento" />
 
-    <DatePicker
-        android:id="@+id/datePicker1"
+    <Button
+        android:id="@+id/data"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="Escolher data" />
 
     <Button
         android:id="@+id/enviar"
