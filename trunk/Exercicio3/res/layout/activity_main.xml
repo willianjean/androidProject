@@ -17,7 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName" >
+        android:inputType="textPersonName">
 
         <requestFocus />
     </EditText>
@@ -26,7 +26,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Informe sua data de nascimento" />
+        android:text="Informe sua data de nascimento." />
 
     <Button
         android:id="@+id/data"
@@ -34,10 +34,28 @@
         android:layout_height="wrap_content"
         android:text="Escolher data" />
 
-    <Button
-        android:id="@+id/enviar"
+    <TextView
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Enviar" />
+        android:text="Informe qual informação voce deseja saber." />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/enviarHabilitacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tirar habilitação" />
+
+        <Button
+            android:id="@+id/enviarAposentadoria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aposentar" />
+
+    </LinearLayout>
 
 </LinearLayout>

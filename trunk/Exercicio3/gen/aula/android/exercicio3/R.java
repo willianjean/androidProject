@@ -1095,7 +1095,8 @@ containing a value of this type.
         public static final int dropdown=0x7f05000f;
         public static final int edit_query=0x7f050030;
         public static final int end=0x7f050013;
-        public static final int enviar=0x7f050041;
+        public static final int enviarAposentadoria=0x7f050043;
+        public static final int enviarHabilitacao=0x7f050042;
         public static final int expand_activities_button=0x7f050026;
         public static final int expanded_menu=0x7f05002c;
         public static final int home=0x7f050014;
@@ -1132,6 +1133,7 @@ containing a value of this type.
         public static final int tabMode=0x7f050002;
         public static final int textView1=0x7f05003d;
         public static final int textView2=0x7f05003f;
+        public static final int textView3=0x7f050041;
         public static final int title=0x7f05002b;
         public static final int top_action_bar=0x7f050020;
         public static final int up=0x7f050021;

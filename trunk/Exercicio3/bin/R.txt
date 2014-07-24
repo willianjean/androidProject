@@ -257,7 +257,8 @@ int id disableHome 0x7f050008
 int id dropdown 0x7f05000f
 int id edit_query 0x7f050030
 int id end 0x7f050013
-int id enviar 0x7f050041
+int id enviarAposentadoria 0x7f050043
+int id enviarHabilitacao 0x7f050042
 int id expand_activities_button 0x7f050026
 int id expanded_menu 0x7f05002c
 int id home 0x7f050014
@@ -294,6 +295,7 @@ int id submit_area 0x7f050039
 int id tabMode 0x7f050002
 int id textView1 0x7f05003d
 int id textView2 0x7f05003f
+int id textView3 0x7f050041
 int id title 0x7f05002b
 int id top_action_bar 0x7f050020
 int id up 0x7f050021
