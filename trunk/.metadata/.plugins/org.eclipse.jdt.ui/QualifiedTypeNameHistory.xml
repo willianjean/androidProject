@@ -27,4 +27,6 @@
 <fullyQualifiedTypeName name="android.widget.Toast"/>
 <fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
 <fullyQualifiedTypeName name="aula.android.exercicio3.R.id"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="br.ufam.Calculadora_wj"/>
 </qualifiedTypeNameHistroy>

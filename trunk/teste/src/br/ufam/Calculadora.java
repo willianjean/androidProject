@@ -1,0 +1,66 @@
+package br.ufam;
+
+import java.util.Random;
+
+
+
+
+public class Calculadora {
+	
+	static Random NumQlqr = new Random();
+	public static int a = NumQlqr.nextInt(10);
+	public static int b = NumQlqr.nextInt(10);
+	public static double e = 2.718281828;
+
+	public int Sum( int a, int b){
+		return a+b;
+	}
+	
+	public int Sub( int a, int b){
+		return a-b;
+	}
+	
+	public int Mult(int a, int b){
+		return a*b;
+	}
+	
+	public double Div(double num, double den){
+		return num/den;
+	}
+	
+	public double exp(double e2, int expoente){
+		double resultado =1 ;		
+		for (int i = 0; i < expoente; i++) {
+			resultado = e2*resultado;
+		}
+		return resultado;
+	}
+	
+	public double logBaseE(int valor){
+		return Math.log(valor);
+	}
+	
+	public double logBaseDecimal(int valor){
+		return Math.log10(valor);
+	}
+	
+	
+	public static void main(String[] args) {
+		Calculadora calc = new Calculadora();
+			
+		System.out.println("Soma de " + a + " com " + b + " é: " + calc.Sum(a, b));
+		System.out.println("Subtração de " + a + " com " + b + " é: " + calc.Sub(a, b));
+		System.out.println("Multiplicação de " + a + " com " + b + " é: " + calc.Mult(a, b));
+		System.out.println("Divisão de " + a + " com " + b + " é: " + calc.Div(a, b));
+		System.out.println("\n-----------------------");
+		
+		int flag = 2;
+		System.out.println("Log de " + flag + " na base {e} é: " + calc.logBaseE(flag));
+		System.out.println("Aproximação por Taylor: "+ Taylor.SerieTaylorLOG(flag, 1000));
+		
+		System.out.println("\ne{2.71} elevado a " + flag + " é: " + calc.exp(e, flag));
+		System.out.println("Aproximação por Taylor: "+ Taylor.SerieTaylorEXP(flag, 15));
+		
+	}
+	
+}
