@@ -1,0 +1,20 @@
+package br.ufam;
+
+public class Fatorial {
+
+	private static double fatorial(double i){
+		if (i==0)
+			return 1.0;
+		return i*fatorial(--i);
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double result;
+		result = fatorial(4);
+		
+		System.out.println(result);
+
+	}
+
+}
