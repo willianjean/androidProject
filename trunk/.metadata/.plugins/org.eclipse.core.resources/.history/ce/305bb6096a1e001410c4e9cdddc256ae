@@ -1,0 +1,60 @@
+package br.ufam;
+
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+public class CalculadoraTest {
+
+	
+	//Primeira questão
+	@Test
+	public void somaTest(){
+		Calculadora_wj c = new Calculadora_wj();
+		double result = c.soma(10, 10);
+		assertEquals(10.0 + 10.0, result, 0);
+	}
+	
+	@Test
+	public void subtracaoTest(){
+		Calculadora_wj c = new Calculadora_wj();
+		double result = c.subtracao(10, 10);
+		assertEquals(10.0 - 10.0, result, 0);
+	}
+	
+	@Test
+	public void multiplicacaoTest(){
+		Calculadora_wj c = new Calculadora_wj();
+		double result = c.multiplicacao(10, 10);
+		assertEquals(10.0 * 10.0, result, 0);
+	}
+	
+	@Test
+	public void divisaoTest(){
+		Calculadora_wj c = new Calculadora_wj();
+		double result = c.divisao(10, 10);
+		assertEquals(10.0 / 10.0, result, 0);
+	}
+	
+	@Test
+	public void exponenciacaoTest(){
+		Calculadora_wj c = new Calculadora_wj();
+		double result = c.exponenciacao(2,3);
+		assertEquals(Math.pow(2,3), result, 0);
+	}
+	
+	@Test
+	public void logaritimoTest(){
+		Calculadora_wj c = new Calculadora_wj();
+		double result = c.logaritimo(2);
+		assertEquals(Math.log10(2), result, 0);
+	}
+	
+	//Segunda questão
+	@Test
+	public void exponencialTaylorTest(){
+		Calculadora_wj c = new Calculadora_wj();
+		double result = c.expTaylor(3,15);
+		assertEquals(2.718281828459, result, 0.00001);
+	}
+	
+}

@@ -13,25 +13,25 @@ public class Taylor {
 
 	
 	public static double SerieTaylorEXP(int x, int n){
-		
-		// (n) é a quantidade de termos da serie.
-		// (x) é o expoente a qual "e" será elevado.
-		
+	
 		double resultado = 0 ;
-		for (int i = 0; i < n; i++) {
+		for (int i = 0 ; i < n; i++) {
 			resultado += (Math.pow(x, i))/(fatorial(i));
 		}	
 		return resultado;
 	}
 	
-	public static double SerieTaylorLOG(int x, int n){
-		
+	public static double SerieTaylorLOG(int x, int n){		
 	
 		double resultado = 0 ;
 		for (int i = 1; i < n; i++) {
 			resultado += ((Math.pow((-1),i+1))/(i))*(Math.pow((x-1), i));
 		}	
 		return resultado;
+	}
+	
+	public static void main(String[] args){
+		System.out.println(SerieTaylorLOG(2,15));
 	}
 	
 
