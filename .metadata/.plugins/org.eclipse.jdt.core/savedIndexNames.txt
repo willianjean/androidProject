@@ -13,9 +13,7 @@ INDEX VERSION 1.126+C:\MyProject\trunk\.metadata\.plugins\org.eclipse.jdt.core
 1369530581.index
 1611078344.index
 2962040765.index
-3888941127.index
 4183445374.index
-8124578.index
 963086886.index
 2833049939.index
 3829748403.index
@@ -29,7 +27,6 @@ INDEX VERSION 1.126+C:\MyProject\trunk\.metadata\.plugins\org.eclipse.jdt.core
 2943934462.index
 3224974857.index
 2010491873.index
-2186724716.index
 3117418183.index
 3549880408.index
 2744821051.index
@@ -37,7 +34,6 @@ INDEX VERSION 1.126+C:\MyProject\trunk\.metadata\.plugins\org.eclipse.jdt.core
 3864388346.index
 648820999.index
 735681076.index
-1041467899.index
 1516262146.index
 182735413.index
 1284074322.index
