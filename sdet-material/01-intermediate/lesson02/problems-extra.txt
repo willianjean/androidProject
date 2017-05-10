@@ -1,0 +1,8 @@
+Arrays
+https://www.hackerrank.com/domains/data-structures/arrays
+
+Ordenação
+https://www.hackerrank.com/domains/algorithms/arrays-and-sorting
+
+Algoritmos Gulosos
+https://www.hackerrank.com/domains/algorithms/greedy

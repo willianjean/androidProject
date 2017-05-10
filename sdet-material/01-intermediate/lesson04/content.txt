@@ -1,0 +1,11 @@
+Pilhas
+http://www.ime.usp.br/~pf/algoritmos/aulas/pilha.html
+
+Recursão
+http://www.ime.usp.br/~pf/algoritmos/aulas/recu.html
+
+Programação dinâmica
+http://www.ime.usp.br/~pf/analise_de_algoritmos/aulas/dynamic-programming.html
+
+Busca em profundidade
+http://www.ime.usp.br/~pf/algoritmos_para_grafos/aulas/dfs1.html

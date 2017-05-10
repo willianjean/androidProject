@@ -1,0 +1,5 @@
+Algoritmo KMP
+http://www.ime.usp.br/~pf/estruturas-de-dados/aulas/kmp.html
+
+Algoritmo de Boyer-Moore
+http://www.ime.usp.br/~pf/algoritmos/aulas/strma.html
